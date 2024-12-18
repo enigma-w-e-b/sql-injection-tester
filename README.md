@@ -39,7 +39,7 @@ sudo make install
 ## Execução
 
 ```
-sql-injection-tester --help
+sql-injection-tester
 ```
 
 
