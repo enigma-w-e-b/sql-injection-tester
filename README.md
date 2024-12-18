@@ -22,7 +22,7 @@ Este é um script em C++ desenvolvido para testar vulnerabilidades de SQL Inject
 Para compilar o script manualmente, utilize o seguinte comando:
 
 ```sh
-g++ -o sql_injection_tester sql_injection_tester.cpp -lcurl
+g++ -o sql-injection-tester main.cpp -lcurl
 ```
 
 ## Instalação
@@ -50,7 +50,7 @@ sql-injection-tester --help
 Para executar o script usando um arquivo CSV e um arquivo de payloads personalizados, utilize o seguinte comando:
 
 ```sh
-./sql_injection_tester --csv ./urls.csv --payloads ./payloads.txt
+sql-injection-tester --csv ./urls.csv --payloads ./payloads.txt
 ```
 
 ### Formato do Arquivo CSV
