@@ -1,0 +1,6 @@
+urls.csv
+payloads.txt
+sql_injection_tester
+.idea
+build
+cmake-build-debug
