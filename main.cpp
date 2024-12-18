@@ -59,7 +59,7 @@ void test_sql_injection_get(const std::string& url, std::vector<TestResult>& res
 
     if(CURL *curl = curl_easy_init()) {
         for(const auto& payload : payloads) {
-            std::string test_url = replace_all(url, "[test]", payload);
+            std::string test_url = replace_all(url, "[test]", curl_easy_escape(curl, payload.c_str(), payload.length()));
             std::string readBuffer;
 
             curl_easy_setopt(curl, CURLOPT_URL, test_url.c_str());
@@ -238,7 +238,7 @@ int main(const int argc, char** argv) {
         }
         write_results_to_csv("/tmp/sql_injection_test_results.csv", results);
         std::cout << "results written to /tmp/sql_injection_test_results.csv" << std::endl;
-    } else if (!method.empty() && !body.empty()) {
+    } else if (!method.empty()) {
         std::string url;
         for (int i = 1; i < argc; i += 2) {
             if (std::string arg = argv[i]; arg == "--url") {
