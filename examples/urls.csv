@@ -1,0 +1,2 @@
+http://localhost:3000/login|POST|{"username":"[test]", "password":"[test]"}
+// apague este comentario e escreva cada url linha a linha com o método HTTP e o body, lembre-se de substituir os valores de username e password por [test] para que o script teste os campos.
