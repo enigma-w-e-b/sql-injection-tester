@@ -14,16 +14,9 @@ Este é um script em C++ desenvolvido para testar vulnerabilidades de SQL Inject
 
 ## Pré-requisitos
 
-- g++
 - libcurl
-
-## Compilação
-
-Para compilar o script manualmente, utilize o seguinte comando:
-
-```sh
-g++ -o sql-injection-tester main.cpp -lcurl
-```
+- cmake
+- make
 
 ## Instalação
 ```sh
@@ -73,28 +66,6 @@ http://localhost:3000/login|POST|username=[test]&password=[test]
 ' OR '1'='1
 ' OR '1'='1' --
 ' OR '1'='1' ({
-' OR 1=1
-' OR 1=1 --
-' OR 1=1 ({
-' OR 1=1 /*
-' OR 1=1 #
-' OR ''=''
-' = '
-' OR 'a'='a
-' OR ''=' --
-' OR ''=' ({
-' OR ''=' /*
-' OR ''=' #
-' OR ''='
-```
-## Saída
-Os resultados dos testes serão exibidos no terminal com coloração apropriada para indicar sucesso ou falha. Além disso, os resultados serão salvos em um arquivo CSV chamado results.csv.
-
-Exemplo de Saída:
-
-```
-PASS - no vulnerability detected for: http://localhost:3000/login with body: username=test&password=test
-DANGER - possible sql injection found: http://localhost:3000/login with body: username=' OR '1'='1' --&password=' OR '1'='1' --
 ```
 
 ## Licença

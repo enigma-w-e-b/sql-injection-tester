@@ -1,3 +1,0 @@
-http://localhost:3000/login|POST|{"username":"[test]", "password":"[test]"}
-http://localhost:3000/login|POST|username=[test]&password=[test]
-http://localhost:3000/login?username=[test]&password=[test]|GET|
