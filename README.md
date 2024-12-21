@@ -80,3 +80,5 @@ Este projeto é distribuído sob a licença MIT. Consulte `LICENSE` para obter m
 
 #### Este projeto foi desenvolvido por Enigma Web, um integrante da corporação Cipher Systems.
 
+## Responsabilidade
+### A corporação Ciphers Systems não se responsabiliza por qualquer dano causado pelo uso indevido deste script, que foi desenvolvido para fins educacionais.

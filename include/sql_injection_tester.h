@@ -17,6 +17,7 @@ void test_sql_injection_parallel(const std::string& url, const std::string& meth
 
 void test_sql_injection_get(const std::string& url, const std::vector<std::string>& headers, std::vector<TestResult>& results, bool debug, const std::string& output_dir);
 void test_sql_injection_post(const std::string& url, const std::string& body, const std::vector<std::string>& headers, std::vector<TestResult>& results, bool debug, const std::string& output_dir);
+void test_sql_injection_put(const std::string& url, const std::string& body, const std::vector<std::string>& headers, std::vector<TestResult>& results, bool debug, const std::string& output_dir);
 void test_sql_injection_timing(const std::string& url, const std::string& body, const std::vector<std::string>& headers, std::vector<TestResult>& results, bool debug, const std::string& output_dir);
 
 #endif // SQL_INJECTION_TESTER_H
