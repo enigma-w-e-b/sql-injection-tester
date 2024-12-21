@@ -94,14 +94,6 @@ Os usuários das ferramentas da Ciphers Systems devem utilizar esses recursos ap
     - Aprender a proteger sistemas e dados contra ameaças cibernéticas.
     - Aprender a usar ferramentas de segurança e criptografia de forma responsável.
     - Aprender a proteger a privacidade e a segurança dos dados pessoais.
-    - Aprender a proteger a integridade e a confidencialidade dos dados.
-    - Aprender a proteger a disponibilidade dos sistemas e serviços.
-    - Aprender a proteger a autenticidade e a não repúdio das informações.
-    - Aprender a proteger a conformidade e a responsabilidade dos dados.
-    - Aprender a proteger a segurança física e lógica dos sistemas.
-    - Aprender a proteger a segurança de redes e comunicações.
-    - Aprender a proteger a segurança de aplicativos e dispositivos.
-
 
 ## Responsabilidade do Usuário
 
